@@ -91,7 +91,76 @@ body{
     border-top:1px solid rgba(0, 0, 0, 0.1);
     border-bottom:1px solid rgba(0, 0, 0, 0.1);
 }
-
+.main-card-container{
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.main-card-container h4{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+}
+.card-container .card{
+    width: 329px;
+    height: 476px;
+    padding: 17px 14px;
+}
+.card-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 29px;
+}
+.card-container h5{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    margin-top: 16px;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #bebdbd;
+}
+.card label{
+    font-size: 1.5rem;
+    color: #3A3A3A;
+    text-align: left;
+}
+.star-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+.star-container img{
+   max-width: 11.07px;
+   height: 10.32px;
+}
+.star-container .star-p{
+    font-size: 0.87rem;
+    font-weight: bold;
+    color: rgb(105, 101, 101);
+}
+.card .card-p{
+    font-size: 0.76rem;
+    font-weight: bold;
+    width: 196px;
+    color: #5f5e5e;
+    margin-top: 10px;
+}
+.main-card-container .see-div  {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d12a67;
+    text-align: right;
+}
+.main-card-container .see-div i{
+     margin-top: 50px;
+     
+}
 
 
 
@@ -135,6 +204,18 @@ body{
 }
 .logos-container img{
     margin-bottom: 10px;
+    text-align: center;
+}
+.main-card-container {
+    margin-top: 50px;
+}
+.card-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.card-container .card {
+ margin: 0 auto; 
+}
+.main-card-container .see-div {
     text-align: center;
 }
 }
